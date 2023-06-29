@@ -3,6 +3,7 @@
 :root {
   --color-primary: #7380ec;
   --color-danger: #ff7782;
+  --color-vv: #22c3a6;
   --color-success: #41f1b6;
   --color-warning: #ffbb55;
   --color-info-dark: #7d8da1;
@@ -150,12 +151,17 @@ aside .top {
 
 aside .logo {
   display: flex;
-  gap: 0.8rem;
+  align-items: center;
+  gap: 0.2rem;
+
+}
+aside .logo span{
+   color: var(--color-vv);
 }
 
 aside .logo img {
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
 }
 
 aside .close {
